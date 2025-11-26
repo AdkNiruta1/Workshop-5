@@ -39,6 +39,36 @@
         myBike.DisplyaInfo();
         myBike.Stop();
 
+// Task 3 Polymorphism
+Console.WriteLine("=== Printer Methods ===");
+Printer p = new Printer();
+
+p.Print("Hello Niru!");
+p.Print(1234);
+p.Print("Repeated Message", 3);
+
+// part 2 of polymorphism
+Console.WriteLine("\n=== Teacher Classes ===");
+
+// Nepali teacher
+NepaliTeacher nt = new NepaliTeacher();
+nt.Name = "Monika";
+Console.WriteLine("Nepali Teacher Name:" + nt.Name);
+nt.Teaching();
+nt.SalaryInfo();
+
+// English teacher
+
+EnglishTeacher et = new EnglishTeacher();
+et.Name = "Naxal";
+Console.WriteLine("\nEnglish Teacher Name:" + et.Name);
+et.Teaching();
+et.SalaryInfo();
+
+
+
+
+
         
 
     }
