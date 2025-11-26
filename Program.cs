@@ -19,5 +19,27 @@
         // printing the remaining balance
         Console.WriteLine("Final Balance:" + myAcc.Balance);
 
+        // Task 2 inheritance
+
+        // creating the car objects
+        Car myCar = new Car();
+        myCar.Brand = "Nexon";
+        myCar.Speed = 120;
+        myCar.Seats = 5;
+
+        // creating the motorcycle object
+
+        Motorcycle myBike = new Motorcycle();
+        myBike.Brand = "Yamaha";
+        myBike.Speed = 200;
+        myBike.Type = "Sports";
+
+        Console.WriteLine("\n===Motorcycle info ===");
+        myBike.Start();
+        myBike.DisplyaInfo();
+        myBike.Stop();
+
+        
+
     }
 }
