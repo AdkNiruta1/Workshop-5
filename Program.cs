@@ -66,6 +66,25 @@ et.Teaching();
 et.SalaryInfo();
 
 
+// Task 4
+
+// creating object of car
+Car1 car = new Car1();
+car.Display();
+car.StartEngine();
+car.StopEngine();
+Console.WriteLine();
+
+// creating object of bike
+Bike bike = new Bike();
+bike.Display();
+bike.StartEngine();
+bike.StopEngine();
+
+
+
+
+
 
 
 
