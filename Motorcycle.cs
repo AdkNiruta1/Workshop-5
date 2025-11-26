@@ -1,7 +1,8 @@
 // derived class - motorcycle
 public class Motorcycle : Vehicle
 {
-    public String Type {get; set;}
+    public string? Type { get; set; }
+
 
     public override void DisplyaInfo()
     {

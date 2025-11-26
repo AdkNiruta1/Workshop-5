@@ -5,7 +5,8 @@ using System;
 // Base class
 public class Vehicle
 {
-    public String Brand {get; set;}
+    public string? Brand { get; set; }
+
     public int Speed {get; set;}
 
     public void Start()

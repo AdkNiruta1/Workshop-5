@@ -82,13 +82,24 @@ bike.StartEngine();
 bike.StopEngine();
 
 
+// Task 5
+
+ElectronicsStore store = new ElectronicsStore();
+
+// creating devices
+Laptop laptop = new Laptop("Dell", 85000);
+Smartphone phone = new Smartphone("Iphone", 200000);
 
 
+// Adding devices to store
+
+store.AddDevice(laptop);
+store.AddDevice(phone);
 
 
+// showing all device details
 
-
-        
+store.ShowAllDeviceDetails();       
 
     }
 }

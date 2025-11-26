@@ -3,7 +3,8 @@
 
 public class Teacher
 {
-    public String Name {get; set;}
+    public string? Name { get; set; }   
+
 
     public virtual void Teaching()
     {
